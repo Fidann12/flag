@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  margin-top: 20px;
+  background-color: rgb(255, 163, 130);
+}
+table {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+#pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+#pagination li {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 50px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid orangered;
+}
+table,
+td,
+th {
+  padding: 10px;
+  background-color: #ddd;
+  border: 2px solid #fff;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+table img {
+  width: 150px;
+}
